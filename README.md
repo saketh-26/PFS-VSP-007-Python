@@ -1,6 +1,6 @@
-Codegnan — PFS-VSP-007
+**Codegnan — PFS-VSP-007**
 
-Python Programming | 35-Day Learning Journey
+**Python Programming | 35-Day Learning Journey**
    
 Welcome to the Python learning hub for PFS-VSP-007 at Codegnan IT Solutions, Visakhapatnam.
 
@@ -11,16 +11,17 @@ Our goal is simple: understand the logic, write the code, explain the output, an
 Learn the concept. Code it yourself. Practise until you can explain it.
 
 
-👨‍🏫 Your Trainer
+👨‍🏫 **Your Trainer**
 
-Saketh Kallepu
+**Saketh Kallepu**
+
 Co-Founder | Codegnan IT Solutions
 
 A Master in Computational Intelligence from K.L. University, certified as an Azure AI Engineer and a Microsoft Certified Trainer, and formerly a Data Science Consultant for the Andhra Pradesh State Skill Development Corporation (APSSDC) — blended with a passion for nurturing the meaning of education with technology.
 
 With 9 years of teaching expertise in Machine Learning, Data Analytics, and Natural Language Processing, he believes in teaching all functionalities to the core, making his life's motto to train students to be Data Scientists rather than Data Engineers. With a vision of building a better society using technological innovation, he joined Codegnan in 2019 to bring out and enrich the essence of Technical Education with industrial excellence. His ambition is to make Codegnan the Centre of Excellence for Lead India.
 
-Certifications:
+**Certifications:**
 
 Microsoft Certified: Azure AI Fundamentals (AI-900)
 
@@ -79,44 +80,26 @@ HPE Certifications — Machine Learning and Python
 
 ✅ Learning Expectations
 
-Attend classes and practice sessions consistently.
-Maintain notes on concepts, execution flow, and common mistakes.
-Write and run every example yourself.
-Ask questions with your code, input, and error message ready.
-Revise previous topics alongside the current lesson.
-Use AI tools to clarify concepts and review attempts; verify the code and explain it yourself.
-Apply mock interview feedback to your next practice session.
-What You Should Be Ready to Demonstrate
-Area
-Evidence of Learning
-Fundamentals
-Correct use of types, collections, conditions, and loops
-Problem solving
-Clear logic, input handling, and relevant test cases
-Functions & modules
-Reusable code and an explanation of scope and arguments
-OOP
-Classes and relationships that fit the scenario
-Projects
-A working demonstration and documented setup
-Interview readiness
-Explain the approach, output flow, and basic complexity
-GitHub practice
-Organised files and meaningful commits
+- Attend classes and practice sessions consistently.
+- Maintain notes on concepts, execution flow, and common mistakes.
+- Write and run every example yourself.
+- Ask questions with your code, input, and error message ready.
+- Revise previous topics alongside the current lesson.
+- Apply mock interview feedback to your next practice session.
 
 🎯 By the End of the Module
 
 You should be able to:
 
-Write Python programs using suitable data types and control flow.
-Solve beginner coding problems and explain their execution.
-Build reusable functions and organise code into modules.
-Work with files and handle exceptions.
-Build practical automation scripts and OOP applications.
-Validate input using regular expressions.
-Use NumPy and pandas for introductory data analysis.
-Create charts with Matplotlib and extract data using Requests and BeautifulSoup.
-Present your projects and prepare for the next stage of Python Full Stack learning.
+- Write Python programs using suitable data types and control flow.
+- Solve beginner coding problems and explain their execution.
+- Build reusable functions and organise code into modules.
+- Work with files and handle exceptions.
+- Build practical automation scripts and OOP applications.
+- Validate input using regular expressions.
+- Use NumPy and pandas for introductory data analysis.
+- Create charts with Matplotlib and extract data using Requests and BeautifulSoup.
+- Present your projects and prepare for the next stage of Python Full Stack learning.
 
 
 ⭐ A Note to PFS-VSP-007

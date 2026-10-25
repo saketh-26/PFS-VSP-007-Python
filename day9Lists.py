@@ -112,7 +112,6 @@ subjects.remove("Python")
 
 subjects.clear()
 print(subjects)
-'''
 
 #index(),count()
 #index(start) #returns only first occurance index postion
@@ -126,6 +125,402 @@ print(marks.count(24))
 print(marks.count(248))
 
 #Task:Create a Nested List with lists and strings and perform List methods
+
+#copy(),sort(),reverse()
+
+details = [['Sanjay','Python',50],
+           ['Akash','Flask',45],
+           ['Vinay','Aptitude',30]]
+#print(details)
+#print(len(details))
+
+#copy() -->creates a shallow copy of the given collection
+data = details.copy()
+#print(data)
+#print(len(data))
+
+data[0].append("A") #Nested list changes will be directly applicable
+#in both lists
+data.append("Vizag")
+print(data)
+print(len(data))
+print(details)
+print(len(details))
+
+data.extend(["PFS","JFS"])
+print(data)
+print(len(data))
+#print(details)
+#print(len(details))
+
+details.extend(["Hyd","Vizag","Vijayawada","Codegnan"])
+print(len(details))
+print(len(data))
+
+#In the below case we have created basic lists so original is not effected
+subjects = ['Python','MYSQL','Aptitude','Softskills']
+#data = subjects.copy()
+#print(data)
+
+#data.insert(2,"Frontend")
+#print(data)
+#print(subjects)
+
+data = subjects  #this is like complete clone of original data
+data.insert(2,"Frontend")
+print(data)
+print(subjects)
+subjects.remove("Python")
+print(subjects)
+print(data)
+'''
+#sort() reverse()
+
+marks = [12,15,20,24,21]
+#print(marks.sort()) #returns None as nothing to be returned
+#print(marks)
+
+#marks.sort(reverse=True) #it returns in descending order
+#print(marks)
+
+#marks.append("Saketh")
+#marks.sort() #raises TypeError
+'''
+marks.extend([-23,12,87])
+print(marks)
+
+marks.sort(reverse=True) #descending order
+print(marks)
+
+print(marks)
+#marks.reverse() #returns in reverseorder
+#print(marks)
+marks.extend(['poll','sunday',123])
+marks.reverse() #this will make changes in original list
+print(marks)
+print(marks[::-1]) #this will just return the reverse order as o/p
+
+#min(),max(),len(),type(),sorted()
+marks = [20,12,23,25,30]
+print(marks)
+print(min(marks))
+print(max(marks))
+b = sorted(marks) #sorted() function returns a new list with elements in
+#ascending order
+print(b)
+print(marks)
+
+
+#Tuples -->Tuples are Immutable,Ordered,Indexed Collection,it can also have
+#duplicates,we use () to store the data..
+
+data = ()
+print(type(data))
+print(len(data))
+
+data=1,2,3,4, #by default it stores in tuple
+print(data)
+print(type(data))
+
+#be very specific when we are passing data using ()
+#Tuples are Immutable we cannot modify the elements in it
+#data[-2] = 'codegnan' #it is not possible
+#Nested Tuples (also will have lists in it)
+'''
+
+details = ("Vizag",8,("PFS","JFS","DA"),["Aptitude","Softskills"])
+'''print(len(details))
+print(details[:2])
+print(details[2][1]) #subindexing
+print(details[2][::2])
+
+print(details[-1])
+details[-1].extend(['Python','Java'])
+print(details)
+
+#we cannot make any changes over tuple directly but we can change on list
+print(details[0].upper())
+print(details)
+
+#Indexing,Slicing,Repetition,Merging are possible
+
+temp = (23.5,24,34.5)
+b= temp*2
+print(b)
+print(b + temp)
+
+#Tuple Methods --> index(),count()
+data = (12,3,24,3,12,4,5)
+print(data)
+print(data.index(3))
+print(data.index(3,2))
+print(data.count(3))
+
+b = sorted(data) #returns sorted elements in a list
+print(tuple(b))
+c = tuple(sorted(data,reverse=True)) #returns tuple in descending order
+print(c)
+
+del data #it completely eliminates the variable
+#print(data) #NameError
+'''
+
+#Sets : A Set is an Unordered,Unique,Mutable collection.It will never
+#allow duplicates
+
+ids = set()
+print(ids)
+print(type(ids))
+
+names = {'saketh','raju',24,3,'raju',24}
+print(names)
+print(len(names))
+
+#d = {12,3,4,[12,3,4],45} #We cannot have lists inside a set
+#print(d)
+
+d = {12,3,4,(12,3,4),45} #we can have tuples in a set
+print(d)
+
+#Task : Create a Nested Tuple with lists inside it and make all methods
+#of lists in the Tuple.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

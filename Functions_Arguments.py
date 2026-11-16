@@ -237,7 +237,7 @@ print(outer())
 len = 45
 a = ['codegnan','python']
 #print(len(a)) #Here we have used built-in function as identifier it fails
-'''
+
 #Functions are termed as First class Objects
 #Pass by Value and Pass by Object Reference
 
@@ -247,21 +247,220 @@ a = ['codegnan','python']
 #When immutable objects are passed to function,changes inside the function
 #donot effect the original value
 #Original value remains unchanged
-'''def update(number):
+def update(number):
     """Pass by value usage"""
     number = 15
     print("Inside Function:",number)
 number = 20
 update(number)
 print("Outside value is",number)
-'''
+
 def update(number):
     """Pass by value usage"""
     return number * 3
-    print("Inside Function:",number)
+    #print("Inside Function:",number)
 number = 20
 print(update(number))
 print(update(25))
+
+#Pass by Reference -->When mutable objects (Lists,Sets,dict) are passed into
+#the function,changes inside the function affect the original object...
+
+def update(items):
+    """We will asssume items as list"""
+    #items.append("Laptop")
+    items.extend(["Laptop","Power Bank","Camera"])
+cart = ["Mobile","Watch"]
+print(update(cart)) #returns None 
+print(cart) #original list changes
+#print(update("saketh")) #raises Attribute Error
+
+#Dictionary Usage: -> Updating profile
+def update(profile):
+    """Usage of Dictionary"""
+    profile['branch'] = "Vizag"
+students = {'names':['Sanjay','Akash']}
+pfs_students = {'batches':['PFS-VSP-007','PFS-VSP-006'],
+                'subjects':['Python','MYSQL','Aptitude']}                                                
+update(students)
+print(students)
+update(pfs_students)
+print(pfs_students)
+
+#Pass by value --> Original data will not change,Immutable objects
+#Pass by Object Reference --> Original data will change,Mutable objects
+'''
+#Built-in functions -->Functions which are inbuilt in Python
+#print(),len(),min(),max(),sorted(),int(),float(),bool(),complex(),str()
+#list(),tuple(),set(),dict(),input(),eval(),help()
+
+#print(dir())
+#print(dir(__builtins__)) #returns list of builtin functions and errors
+#print(help(print))
+#print(help(len))
+
+#abs(),chr(),ord()
+'''print(abs(-34)) #returns the absolute value of a numbers
+print(chr(67))
+print(ord('@')) #returns the ASCII value
+data = [24,56,78,0]
+print(any(data)) #any() -> compares bool(x) for any valuer -->True
+print(all(data)) #all() --> needs all values to be present
+#print(all(None))
+print(all([None]))
+print(bin(6)) #returns binary object
+
+print(help(enumerate))
+
+data=["Akash","Ajay","Sanjay"]
+c = dict(enumerate(data)) #by default it creates a counter object
+print(c)
+
+d=dict(enumerate(data,1))
+print(d)
+'''
+#zip --> it combines multiple collections into a single collection
+data= ["Sanjay","Akash","Vijay","Ajay","Bharath"]
+marks = [25,20,23,21]
+f = list(zip(data,marks))
+print(f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

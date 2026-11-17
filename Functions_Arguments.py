@@ -321,9 +321,16 @@ print(d)
 '''
 #zip --> it combines multiple collections into a single collection
 data= ["Sanjay","Akash","Vijay","Ajay","Bharath"]
-marks = [25,20,23,21]
-f = list(zip(data,marks))
+marks = [25,20,23,21,18]
+f = dict(zip(data,marks)) #zip checks for length matching
 print(f)
+
+
+
+
+
+
+
 
 
 

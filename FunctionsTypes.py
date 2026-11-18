@@ -86,6 +86,40 @@ def add(n):
 n = int(input("Enter a value:"))
 print(add(n))
 
+'''
+Task:Build a Simple Choice Chooser:
+-----------WELCOME TO GAME--------
+1 --> Recursion logic Factorial
+2 --> Sum of Natural numbers (recursion)
+3 --> BMI Calculation
+4 ---> Fibonacci Series
+5 --> ATM Usecase
+any other number --> only enter 1-5
+Q --> Quit
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
